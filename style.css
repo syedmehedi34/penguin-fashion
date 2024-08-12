@@ -1,0 +1,586 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+/* Bebas Neue Font  */
+.bebas-neue-regular {
+    font-family: "Bebas Neue", sans-serif;
+  }
+
+  /* Roboto Font */
+  .roboto-thin {
+    font-family: "Roboto", sans-serif;
+  }
+
+
+  /* Montserrat font  */
+  .montserrat-font {
+    font-family: "Montserrat", sans-serif;
+  }
+
+  /* ____________________________________________________
+                   Font Section 
+  _______________________________________________________ */
+
+
+/* Shared section 
+__________________________________ */
+* {
+    padding: 0;
+    margin: 0;
+}
+.primary-description {
+    color: rgb(62, 62, 62);
+    font-family: "Roboto", sans-serif;
+    font-size: .95rem;
+    font-weight: 400;
+}
+.buy-now-btn {
+    border-radius: 10px;
+    background: rgb(42, 30, 89);
+    color: rgb(255, 255, 255);
+    font-family: "Roboto", sans-serif;
+    font-size: .95rem;
+    font-weight: 500;
+    padding: 17px 26px;
+}
+.buy-now-btn i {
+    padding-right: 10px;
+}
+
+
+
+
+/* nav section 
+_____________________________________ */
+header {
+    background: rgb(255, 255, 244);
+}
+
+nav {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 8% ;
+}
+
+
+
+.nav-logo-img {
+    width: 18%;
+    /* max-width: 200px; */
+    height: fit-content;
+    /* border: 2px solid green; */
+}
+
+.nav-list-section {
+    /* border: 2px solid green; */
+    width: 30%;
+}
+.nav-list-section ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    gap: 5%;
+
+}
+
+
+
+/* Hero section 
+_________________________________________ */
+.hero-section {
+    /* border: 1px solid black; */
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 2rem;
+}
+  
+.hero-left-container {
+    /* border: 1px solid green; */
+    width: 30%;
+    padding-top: 3rem;
+}
+.hero-left-title {
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 4.5rem;
+    font-weight: 700;
+    color: rgb(54, 57, 88);
+    margin-bottom: .4rem;
+}
+.hero-left-title span {
+    color: rgb(118, 194, 126);
+}
+.hero-btn {
+    margin-top: 1.5rem;
+}
+
+
+
+
+.hero-img-container {
+    background: url(images/bg-bag.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* border: 2px solid gold; */
+    width: 30%;
+    padding-right: 3rem;
+    padding-bottom: 3rem;
+}
+.hero-img {
+    width: 100%;
+    
+}
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+  
