@@ -7,7 +7,8 @@
   }
 
   /* Roboto Font */
-  .roboto-thin {
+  .roboto-thin, 
+  .fit-section {
     font-family: "Roboto", sans-serif;
   }
 
@@ -34,6 +35,15 @@ __________________________________ */
     font-size: .95rem;
     font-weight: 400;
 }
+.primary-title {
+    color: rgb(54, 57, 88);
+    font-size: 1.35rem;
+    font-weight: 700;
+    font-family: "Roboto", sans-serif;
+    padding-bottom: .75rem;
+
+
+}
 .buy-now-btn {
     border-radius: 10px;
     background: rgb(42, 30, 89);
@@ -42,6 +52,7 @@ __________________________________ */
     font-size: .95rem;
     font-weight: 500;
     padding: 17px 26px;
+    border: none;
 }
 .buy-now-btn i {
     padding-right: 10px;
@@ -115,9 +126,6 @@ _________________________________________ */
     margin-top: 1.5rem;
 }
 
-
-
-
 .hero-img-container {
     background: url(images/bg-bag.png);
     background-repeat: no-repeat;
@@ -129,93 +137,144 @@ _________________________________________ */
 }
 .hero-img {
     width: 100%;
-    
 }
 
 
   
 
 
+/* Fit section 
+_________________________ */
+/* main {
+    background: rgb(229, 229, 229);
+    visibility: hidden;
+    height: 20px;
+    width: 100%;
+} */
+
+.fit-section {
+    /* border: 2px solid yellow; */
+    padding: 50px 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.fit-left-card-container {
+    /* border: 1px solid black; */
+    /* display: flex; */
+    width: 45%;
+}
+.fit-card {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 15px 50px 15px 20px;
+    margin: 12px 0;
+
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.1);
+    background: rgb(255, 255, 255);
+}
+
+.fit-card h3 {
+    color: rgb(54, 57, 88);
+    font-size: 1.35rem;
+    font-weight: 700;
+    padding-bottom: .75rem;
+}
+
+.fit-card p {
+    color: rgb(62, 62, 62);
+    font-family: "Roboto", sans-serif;
+    font-size: .9rem;
+    font-weight: 400;
+}
+  
+.fit-card-img {
+    width: 50px;
+    height: fit-content;
+}
 
 
-
+.fit-img-container {
+    /* border: 1px solid green; */
+    width: 45%;
+}
+.fit-img {
+    width: 99%;
+}
 
 
 
   
 
+/* CART SECTION  */
 
 
+/* SHOPPING CARTS */
+.shopping-section-title {
+    color: rgb(54, 57, 88);
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 2.75rem;
+    font-weight: 700;
+    padding-left: 10%;
+    padding-bottom: 1.8rem;
+    padding-top: 3rem;
+}
+.shopping-cart-container {
+    /* border: 1px solid black; */
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 10rem;
+    gap: 3%;
+}
 
+.shopping-cart {
+    /* border: 2px solid green; */
+    padding: 15px 15px 30px 15px;
 
-
-
-
+    border-radius: 20px;
+    box-shadow: 0px 10px 30px 0px rgba(0, 0, 0, 0.05);
+    background: rgb(255, 255, 255);
+}
+.cart-title {
+    padding-top: 15px;
+}
+.cart-description {
+    padding-bottom: 15px;
+    width: 95%;
+    /* border: 1px solid green; */
+}
   
+.cart-add-container {
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cart-price {
+    color: rgb(118, 194, 126);
+    font-family: Roboto;
+    font-size: 2rem;
+    font-weight: 900;
+}
 
+.cart-img-container {
+    /* border: 1px solid palevioletred; */
+    display: flex;
+    padding: 2rem;
+    border-radius: 20px;
+    background: rgb(241, 241, 241);
+}
+.shopping-cart-img {
+    /* border: 1px solid green; */
+    width: 130px;
+    width: 100%;
+    /* padding: 2.25rem; */
+    margin: 0 auto;
 
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
-
-
-
-
-
-
-
-  
-
+}
 
 
 
